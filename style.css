@@ -1,0 +1,7 @@
+:root{--bg:#fff8f0;--ink:#2b3a55;--pink:#ff5d8f;--blue:#5aa9ff}
+@media(prefers-color-scheme:dark){:root{--bg:#141a2b;--ink:#e8eefc}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Trebuchet MS",Verdana,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+h1{font-size:2.1rem;line-height:1.2;margin:.2em 0 .4em;color:var(--pink)}h2{font-size:1.25rem;margin:2em 0 .4em}
+a{color:var(--blue)}nav{display:flex;gap:1.25rem;flex-wrap:wrap;margin-bottom:1.5rem}footer{margin-top:3rem;font-size:.9rem;opacity:.75}
+.pip{width:96px;height:96px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#8cc4ff,#5aa9ff);display:grid;place-items:center;font-size:2.4rem;margin-bottom:.5rem}
